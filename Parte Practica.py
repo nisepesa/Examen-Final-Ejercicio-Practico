@@ -22,7 +22,7 @@ print("Número de columnas:", numero_columnas)
 
 
 '''Costo de vida promedio'''
-costo_v_promedio = datos['Cost of living, 2017'].mean()
+costo_v_promedio = datos['Cost of living, 2017'].mean().round(2)
 print("Costo de vida promedio:", costo_v_promedio)
 
 
